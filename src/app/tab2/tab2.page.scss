@@ -1,0 +1,31 @@
+:host {
+    // this is the page itself
+    background: rgb(242, 242, 235);
+    ion-header ion-toolbar::shadow {
+        --background: url(https://i.pinimg.com/originals/27/6f/68/276f68a5b6816de1c05ffc5a20d201d3.png) -50px 100%/130% no-repeat;
+        height: 120px;
+        padding-top: 50px;
+        ion-title {
+            color: #fff;
+            height: 50px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        ion-buttons {
+            color: #fff;
+        }
+    }
+    ion-content {
+        --background: #1D0B7B;
+        ion-list {
+            background: rgb(242, 242, 235);
+        }
+    }
+    // .fab-vertical-top {
+    //     top: 35px;
+    //     // ion-fab-button {
+    //     //     width: 60px !important;
+    //     //     height: 60px !important;
+    //     // }
+    // }
+}
